@@ -1,8 +1,23 @@
+
+import Compliance from "./components/Compliance";
+import DashboardHeader from "./components/DashboardHeader";
+import Header from "./components/Header";
+import Negotiating from "./components/Negotiating";
+import Presenting from "./components/Presenting";
+import PrivateBanking from "./components/PrivateBanking";
+import Prospecting from "./components/Prospecting";
+
 function App() {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">Hello World</h1>
-    </>
+    <main className="mb-10">
+      <Header />
+      <PrivateBanking />
+      <DashboardHeader />
+      <Prospecting />
+      <Presenting />
+      <Negotiating />
+      <Compliance />
+    </main>
   );
 }
 
